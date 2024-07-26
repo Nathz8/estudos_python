@@ -1,0 +1,5 @@
+carro = str(input('Qual o modelo do carro? '))
+dias = int(input('Quantos dias com o carro alugado? '))
+km = float(input('Quantos KM percorreu? '))
+diaria = (60 * dias) + (0.15 * km)
+print('O custo total para alugar o {} por {} dias é de R$ {:.2f}' .format(carro, dias, diaria))
